@@ -20,12 +20,6 @@ docker run --rm -it \
         php-cody-engine-tutorial-demo
 ```
 
-Please copy the file `.env.dist` to `.env` and configure for your needs e.g. UID!
-
-Please copy the file `app/app.env.dist` to `app/app.env`, you can configure it for your needs!
-
-Please copy the file `app/config/autoload/local.php.dist` to `app/config/autoload/local.php`, you can configure it for your needs!
-
 ## Running
 
 To start this application, you can use the `dev.sh` bash script in the root directory. 
