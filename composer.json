@@ -1,0 +1,50 @@
+{
+    "name": "proophboard/php-cody-engine-skeleton",
+    "description": "Dockerized PHP skeleton for Event Engine with Cody bot",
+    "homepage": "https://prooph-board.com",
+    "license": "MIT",
+    "type": "project",
+    "keywords": [
+        "php",
+        "code-generator",
+        "code-generation",
+        "ast-php",
+        "ast",
+        "abstract-syntax-tree",
+        "event-engine",
+        "prooph",
+        "proophboard",
+        "cody",
+        "skeleton"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Miertsch",
+            "email": "contact@prooph.de",
+            "homepage": "http://www.prooph.de"
+        },
+        {
+            "name": "Sandro Keil",
+            "email": "contact@prooph.de",
+            "homepage": "http://prooph-software.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/proophboard/php-cody-engine-skeleton/issues",
+        "source": "https://github.com/proophboard/php-cody-engine-skeleton"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer install --working-dir=app",
+            "composer install --working-dir=cody",
+            "cp .env.dist .env",
+            "cp app/app.env.dist app/app.env",
+            "cp app/config/autoload/local.php.dist app/config/autoload/local.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

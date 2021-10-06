@@ -1,0 +1,14 @@
+.git
+.github
+app/vendor
+.idea
+app/app.env
+app/app.env.dist
+ee-cockpit.config.js
+.env
+.env.dist
+cody
+docker-compose.build.yml
+docker-compose.override.dist.yml
+docker-compose.override.yml
+docker-compose.yml
