@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+chdir(dirname(__DIR__));
+
+require 'vendor/autoload.php';
+
+use Acme\Console\ConsoleServices;
+use Symfony\Component\Console\Application;
+
+try {
+    /** @var \Psr\Container\ContainerInterface $container */
+    $container = require 'config/container.php';
+    $application = new Application('Application console');
+
+    $commands = ConsoleServices::consoleCommands();
+    foreach ($commands as $command) {
+        $application->add($container->get($command));
+    }
+
+    $application->run();
+} catch (\Throwable $e) {
+    $fp = fopen('php://stderr', 'wb');
+    fwrite($fp, (string)$e);
+    fclose($fp);
+}

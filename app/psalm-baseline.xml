@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="4.8.1@f73f2299dbc59a3e6c4d66cff4605176e728ee69">
+  <file src="config/container.php">
+    <MixedArgument occurrences="1">
+      <code>$config</code>
+    </MixedArgument>
+    <MixedAssignment occurrences="1">
+      <code>$config</code>
+    </MixedAssignment>
+  </file>
+  <file src="src/Http/MessageBox.php">
+    <MixedArgument occurrences="3">
+      <code>$messageName</code>
+      <code>$metadata</code>
+      <code>$payload</code>
+    </MixedArgument>
+    <MixedAssignment occurrences="6">
+      <code>$messageName</code>
+      <code>$messageName</code>
+      <code>$metadata</code>
+      <code>$payload</code>
+      <code>$result</code>
+      <code>$result</code>
+    </MixedAssignment>
+    <PossiblyInvalidArgument occurrences="1">
+      <code>$payload</code>
+    </PossiblyInvalidArgument>
+    <UnusedVariable occurrences="1">
+      <code>$payload</code>
+    </UnusedVariable>
+  </file>
+  <file src="src/Http/MessageSchemaMiddleware.php">
+    <MissingClosureParamType occurrences="2">
+      <code>$key</code>
+      <code>$value</code>
+    </MissingClosureParamType>
+    <MixedArgument occurrences="11">
+      <code>$componentSchema</code>
+      <code>$messageName</code>
+      <code>$messageName</code>
+      <code>$messageName</code>
+      <code>$messageSchema['response']</code>
+      <code>$possibleType</code>
+      <code>$propSchema</code>
+      <code>$schema</code>
+      <code>$schema</code>
+      <code>$schema</code>
+      <code>$value</code>
+    </MixedArgument>
+    <MixedArrayAccess occurrences="3">
+      <code>$eventEngineSchema['properties']['commands']</code>
+      <code>$eventEngineSchema['properties']['events']</code>
+      <code>$eventEngineSchema['properties']['queries']</code>
+    </MixedArrayAccess>
+    <MixedArrayOffset occurrences="4">
+      <code>$componentSchemas[$componentName]</code>
+      <code>$paths[$path]</code>
+      <code>$paths[$path]</code>
+      <code>$paths[$path]</code>
+    </MixedArrayOffset>
+    <MixedAssignment occurrences="15">
+      <code>$componentName</code>
+      <code>$componentSchema</code>
+      <code>$jsonSchema['type']</code>
+      <code>$messageName</code>
+      <code>$messageName</code>
+      <code>$messageName</code>
+      <code>$paths[$path]</code>
+      <code>$paths[$path]</code>
+      <code>$paths[$path]</code>
+      <code>$possibleType</code>
+      <code>$propSchema</code>
+      <code>$schema</code>
+      <code>$schema</code>
+      <code>$schema</code>
+      <code>$type</code>
+    </MixedAssignment>
+    <PossiblyNullArgument occurrences="2">
+      <code>$messageSchema</code>
+      <code>$messageSchema['response']</code>
+    </PossiblyNullArgument>
+    <PossiblyNullArrayAccess occurrences="1">
+      <code>$messageSchema['response']</code>
+    </PossiblyNullArrayAccess>
+  </file>
+  <file src="src/Persistence/ReadModelProxy.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>GenericEvent::fromArray($event-&gt;toArray())</code>
+    </ArgumentTypeCoercion>
+    <MissingPropertyType occurrences="1">
+      <code>$initialized</code>
+    </MissingPropertyType>
+    <MixedInferredReturnType occurrences="1">
+      <code>bool</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement occurrences="1">
+      <code>$this-&gt;initialized</code>
+    </MixedReturnStatement>
+  </file>
+  <file src="src/Persistence/WriteModelStreamProjection.php">
+    <MissingClosureParamType occurrences="1">
+      <code>$state</code>
+    </MissingClosureParamType>
+    <MixedMethodCall occurrences="1">
+      <code>stack</code>
+    </MixedMethodCall>
+    <UndefinedMethod occurrences="2">
+      <code>readModel</code>
+      <code>streamName</code>
+    </UndefinedMethod>
+    <UnusedClosureParam occurrences="1">
+      <code>$state</code>
+    </UnusedClosureParam>
+  </file>
+  <file src="src/ServiceFactory.php">
+    <DocblockTypeContradiction occurrences="1">
+      <code>null === $this-&gt;container</code>
+    </DocblockTypeContradiction>
+    <MissingParamType occurrences="1">
+      <code>$notInitialized</code>
+    </MissingParamType>
+    <MixedArgument occurrences="7">
+      <code>$cacheEnabled</code>
+      <code>$cachedConfig</code>
+      <code>$cachedConfigFile</code>
+      <code>$description</code>
+      <code>$description</code>
+      <code>$messageProducer</code>
+      <code>$messageProducer</code>
+    </MixedArgument>
+    <MixedAssignment occurrences="6">
+      <code>$cacheEnabled</code>
+      <code>$cachedConfig</code>
+      <code>$cachedConfigFile</code>
+      <code>$description</code>
+      <code>$description</code>
+      <code>$messageProducer</code>
+    </MixedAssignment>
+    <PropertyNotSetInConstructor occurrences="1">
+      <code>$container</code>
+    </PropertyNotSetInConstructor>
+    <RedundantConditionGivenDocblockType occurrences="1">
+      <code>assertContainerIsset</code>
+    </RedundantConditionGivenDocblockType>
+    <UnresolvableInclude occurrences="1">
+      <code>require $cachedConfigFile</code>
+    </UnresolvableInclude>
+  </file>
+  <file src="src/System/SystemServices.php">
+    <MixedArgument occurrences="1">
+      <code>$messageProducer</code>
+    </MixedArgument>
+    <MixedAssignment occurrences="5">
+      <code>$channel</code>
+      <code>$connection</code>
+      <code>$exchange</code>
+      <code>$humusProducer</code>
+      <code>$messageProducer</code>
+    </MixedAssignment>
+    <MixedMethodCall occurrences="5">
+      <code>connect</code>
+      <code>newChannel</code>
+      <code>newExchange</code>
+      <code>setName</code>
+      <code>setType</code>
+    </MixedMethodCall>
+    <PropertyNotSetInConstructor occurrences="1">
+      <code>$producer</code>
+    </PropertyNotSetInConstructor>
+    <UndefinedClass occurrences="5">
+      <code>$this-&gt;producer</code>
+      <code>AmqpMessageProducer</code>
+      <code>\Humus\Amqp\Driver\AmqpExtension\Connection</code>
+      <code>\Humus\Amqp\JsonProducer</code>
+      <code>\Prooph\ServiceBus\Message\HumusAmqp\AmqpMessageProducer</code>
+    </UndefinedClass>
+  </file>
+  <file src="tests/Helper/AggregateTestHistoryEventEnricher.php">
+    <MixedArgument occurrences="3">
+      <code>$aggregateDefinition['aggregateIdentifier']</code>
+      <code>$aggregateDefinition['aggregateIdentifier']</code>
+      <code>$description['eventApplyMap']</code>
+    </MixedArgument>
+    <MixedArrayAccess occurrences="1">
+      <code>$description['eventApplyMap']</code>
+    </MixedArrayAccess>
+    <MixedArrayOffset occurrences="2">
+      <code>$aggregateMap[$aggregateDefinition['aggregateType']]</code>
+      <code>$aggregateMap[$aggregateDefinition['aggregateType']]</code>
+    </MixedArrayOffset>
+    <MixedAssignment occurrences="2">
+      <code>$arId</code>
+      <code>$description</code>
+    </MixedAssignment>
+    <MixedInferredReturnType occurrences="1">
+      <code>?array</code>
+    </MixedInferredReturnType>
+    <MixedReturnStatement occurrences="1">
+      <code>$description</code>
+    </MixedReturnStatement>
+  </file>
+  <file src="tests/IntegrationTestCase.php">
+    <InvalidArgument occurrences="1">
+      <code>$this-&gt;eventEngine-&gt;schema()-&gt;buildResponseTypeSchemaFromArray($query, $responseType)</code>
+    </InvalidArgument>
+    <MissingConstructor occurrences="1">
+      <code>$typeSchemaMap</code>
+    </MissingConstructor>
+    <MissingParamType occurrences="1">
+      <code>$response</code>
+    </MissingParamType>
+    <MissingReturnType occurrences="2">
+      <code>initializeTypes</code>
+      <code>setUpDatabase</code>
+    </MissingReturnType>
+    <MixedArgument occurrences="15">
+      <code>$aggregateStream</code>
+      <code>$collection</code>
+      <code>$doc</code>
+      <code>$docId</code>
+      <code>$fixtures[$aggregateStream]</code>
+      <code>$history</code>
+      <code>$response</code>
+      <code>$responseType</code>
+      <code>$this-&gt;compiledDescription['aggregateDescriptions']</code>
+      <code>$typeName</code>
+      <code>$typeName</code>
+      <code>$typeName</code>
+      <code>$typeName</code>
+      <code>$typeSchema</code>
+      <code>$typeSchema</code>
+    </MixedArgument>
+    <MixedArgumentTypeCoercion occurrences="2">
+      <code>$aggregateType</code>
+      <code>$arId</code>
+    </MixedArgumentTypeCoercion>
+    <MixedArrayAccess occurrences="2">
+      <code>$description['aggregateCollection']</code>
+      <code>$description['aggregateStream']</code>
+    </MixedArrayAccess>
+    <MixedArrayOffset occurrences="1">
+      <code>$aggregates[$arType]</code>
+    </MixedArrayOffset>
+    <MixedAssignment occurrences="13">
+      <code>$aggregateStream</code>
+      <code>$aggregateType</code>
+      <code>$arId</code>
+      <code>$arType</code>
+      <code>$collection</code>
+      <code>$description</code>
+      <code>$doc</code>
+      <code>$docId</code>
+      <code>$response</code>
+      <code>$typeName</code>
+      <code>$typeName</code>
+      <code>$typeSchema</code>
+      <code>$typeSchema</code>
+    </MixedAssignment>
+    <UnusedForeachValue occurrences="1">
+      <code>$bool</code>
+    </UnusedForeachValue>
+    <UnusedVariable occurrences="1">
+      <code>$aggregateType</code>
+    </UnusedVariable>
+  </file>
+  <file src="tests/TestCaseAbstract.php">
+    <ImplementedReturnTypeMismatch occurrences="1">
+      <code>\EventEngine\Messaging\Event</code>
+    </ImplementedReturnTypeMismatch>
+    <MismatchingDocblockReturnType occurrences="1">
+      <code>\EventEngine\Messaging\Event</code>
+    </MismatchingDocblockReturnType>
+    <MissingConstructor occurrences="10">
+      <code>$compiledDescription</code>
+      <code>$compiledDescription</code>
+      <code>$documentStore</code>
+      <code>$documentStore</code>
+      <code>$eventEngine</code>
+      <code>$eventEngine</code>
+      <code>$eventQueue</code>
+      <code>$eventQueue</code>
+      <code>$eventStore</code>
+      <code>$eventStore</code>
+    </MissingConstructor>
+    <MissingParamType occurrences="1">
+      <code>$assertNotRecorded</code>
+    </MissingParamType>
+    <MissingPropertyType occurrences="1">
+      <code>$queuedEvents</code>
+    </MissingPropertyType>
+    <MixedArgument occurrences="10">
+      <code>$event</code>
+      <code>$messageName</code>
+      <code>$messageName</code>
+      <code>$messageName</code>
+      <code>$metadata</code>
+      <code>$metadata</code>
+      <code>$metadata</code>
+      <code>$payload</code>
+      <code>$payload</code>
+      <code>$payload</code>
+    </MixedArgument>
+    <MixedArrayAccess occurrences="2">
+      <code>$evtName</code>
+      <code>$evtPayload</code>
+    </MixedArrayAccess>
+    <MixedArrayAssignment occurrences="1">
+      <code>$this-&gt;queuedEvents[]</code>
+    </MixedArrayAssignment>
+    <MixedAssignment occurrences="4">
+      <code>$event</code>
+      <code>$events</code>
+      <code>$evt</code>
+      <code>[$evtName, $evtPayload]</code>
+    </MixedAssignment>
+    <MixedInferredReturnType occurrences="1">
+      <code>\EventEngine\Messaging\Event</code>
+    </MixedInferredReturnType>
+  </file>
+</files>

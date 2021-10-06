@@ -97,6 +97,7 @@ services:
     ports:
       - 5432:5432
     volumes:
+      - ./env/postgres/initdb.d:/docker-entrypoint-initdb.d:ro
       - pb-ces-postgres-data:/var/lib/postgresql/data
     environment:
       POSTGRES_DB: "event_engine"
