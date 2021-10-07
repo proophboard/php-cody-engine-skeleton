@@ -40,7 +40,7 @@ $ docker-compose run --rm pb-ces-worker bin/console database:prepare
 This skeleton comes with some preconfigured services for development.
 
 - [Backend: Message Box](http://localhost/api/v1/messagebox): `http://localhost/api/v1/messagebox`
-- [Backend: Message Box Schema](http://localhost/api/v1/messagebox-schema): `http://localhost/api/v1/messagebox`
+- [Backend: Message Box Schema](http://localhost/api/v1/messagebox-schema): `http://localhost/api/v1/messagebox-schema`
 - [Event Engine Cockpit](https://localhost:4444/api/cockpit): `https://localhost:4444/api/cockpit`
   - ensure that you configure the right schema url `https://localhost:4444/api/cockpit` and message box url `https://localhost:4444/api/messagebox`
 
