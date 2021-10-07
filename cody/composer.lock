@@ -418,12 +418,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/event-engine/php-inspectio-graph-cody.git",
-                "reference": "4957c04a8bb467eeb683351fbc91ca3a5acdebd5"
+                "reference": "6c54ccceb913ca0ad0c4d2d98b86943f60e59fab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/event-engine/php-inspectio-graph-cody/zipball/4957c04a8bb467eeb683351fbc91ca3a5acdebd5",
-                "reference": "4957c04a8bb467eeb683351fbc91ca3a5acdebd5",
+                "url": "https://api.github.com/repos/event-engine/php-inspectio-graph-cody/zipball/6c54ccceb913ca0ad0c4d2d98b86943f60e59fab",
+                "reference": "6c54ccceb913ca0ad0c4d2d98b86943f60e59fab",
                 "shasum": ""
             },
             "require": {
@@ -474,7 +474,7 @@
                 "issues": "https://github.com/event-engine/php-inspectio-graph-cody/issues",
                 "source": "https://github.com/event-engine/php-inspectio-graph-cody"
             },
-            "time": "2021-09-22T07:12:33+00:00"
+            "time": "2021-10-07T10:41:27+00:00"
         },
         {
             "name": "fig/http-message-util",
