@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/event-engine/php-code-generator-event-engine-ast.git",
-                "reference": "a63d4269c6e553aeef756ef9af7b3664f6f5519e"
+                "reference": "44b9077773ce9ed8375dc418133d4e8a17fc0b07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/event-engine/php-code-generator-event-engine-ast/zipball/a63d4269c6e553aeef756ef9af7b3664f6f5519e",
-                "reference": "a63d4269c6e553aeef756ef9af7b3664f6f5519e",
+                "url": "https://api.github.com/repos/event-engine/php-code-generator-event-engine-ast/zipball/44b9077773ce9ed8375dc418133d4e8a17fc0b07",
+                "reference": "44b9077773ce9ed8375dc418133d4e8a17fc0b07",
                 "shasum": ""
             },
             "require": {
@@ -293,7 +293,7 @@
                 "issues": "https://github.com/event-engine/php-code-generator-event-engine-ast/issues",
                 "source": "https://github.com/event-engine/php-code-generator-event-engine-ast"
             },
-            "time": "2021-10-08T15:38:53+00:00"
+            "time": "2021-10-15T13:56:25+00:00"
         },
         {
             "name": "event-engine/php-inspectio-cody",
@@ -364,12 +364,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/event-engine/php-inspectio-graph.git",
-                "reference": "c964c13b50fce489b73123cc80dbde4c31508c9f"
+                "reference": "b2d02b3d687fe75c51b95e5dce6d166b7a0a6e68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/event-engine/php-inspectio-graph/zipball/c964c13b50fce489b73123cc80dbde4c31508c9f",
-                "reference": "c964c13b50fce489b73123cc80dbde4c31508c9f",
+                "url": "https://api.github.com/repos/event-engine/php-inspectio-graph/zipball/b2d02b3d687fe75c51b95e5dce6d166b7a0a6e68",
+                "reference": "b2d02b3d687fe75c51b95e5dce6d166b7a0a6e68",
                 "shasum": ""
             },
             "require": {
@@ -410,7 +410,7 @@
                 "issues": "https://github.com/event-engine/php-inspectio-graph/issues",
                 "source": "https://github.com/event-engine/php-inspectio-graph"
             },
-            "time": "2021-09-22T07:10:02+00:00"
+            "time": "2021-10-15T13:58:16+00:00"
         },
         {
             "name": "event-engine/php-inspectio-graph-cody",
@@ -1473,16 +1473,16 @@
         },
         {
             "name": "react/child-process",
-            "version": "v0.6.3",
+            "version": "v0.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/child-process.git",
-                "reference": "45e6e3a363e531ed1aafb58e3886c4561432a2a0"
+                "reference": "a778f3fb828d68caf8a9ab6567fd8342a86f12fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/child-process/zipball/45e6e3a363e531ed1aafb58e3886c4561432a2a0",
-                "reference": "45e6e3a363e531ed1aafb58e3886c4561432a2a0",
+                "url": "https://api.github.com/repos/reactphp/child-process/zipball/a778f3fb828d68caf8a9ab6567fd8342a86f12fe",
+                "reference": "a778f3fb828d68caf8a9ab6567fd8342a86f12fe",
                 "shasum": ""
             },
             "require": {
@@ -1536,7 +1536,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/child-process/issues",
-                "source": "https://github.com/reactphp/child-process/tree/v0.6.3"
+                "source": "https://github.com/reactphp/child-process/tree/v0.6.4"
             },
             "funding": [
                 {
@@ -1548,7 +1548,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-11T13:05:01+00:00"
+            "time": "2021-10-12T10:37:07+00:00"
         },
         {
             "name": "react/dns",
@@ -2359,16 +2359,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625"
+                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
-                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f268ca40d54617c6e06757f83f699775c9b3ff2e",
+                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e",
                 "shasum": ""
             },
             "require": {
@@ -2411,7 +2411,7 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2021-04-09T00:54:41+00:00"
+            "time": "2021-10-11T04:00:11+00:00"
         },
         {
             "name": "symfony/console",
