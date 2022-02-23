@@ -41,8 +41,8 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
-        "event-engine/php-code-generator-event-engine-ast": "dev-feature/simplify-connections",
-        "event-engine/php-inspectio-cody": "dev-feature/simplify-connections",
+        "event-engine/php-code-generator-event-engine-ast": "^0.1.0",
+        "event-engine/php-inspectio-cody": "^0.1.0",
         "fig/http-message-util": "^1.1",
         "laminas/laminas-coding-standard": "^2.2.0",
         "laminas/laminas-filter": "^2.9",
